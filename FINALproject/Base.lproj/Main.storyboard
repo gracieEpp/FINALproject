@@ -27,9 +27,13 @@
                                 <rect key="frame" x="0.0" y="750" width="427" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdm-Sw-D61">
-                                <rect key="frame" x="192" y="504" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdm-Sw-D61">
+                                <rect key="frame" x="152" y="481" width="111" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="IMG_8738"/>
+                                <connections>
+                                    <segue destination="OS5-p9-Rsz" kind="show" id="dSF-X9-LI6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.56017589627513054" green="0.78063531091370564" blue="0.48341668902836799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -862,9 +866,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="2zT-xk-tZt"/>
         <segue reference="uig-DU-DE4"/>
-        <segue reference="e1e-O6-NhI"/>
+        <segue reference="dSF-X9-LI6"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="IMG_8738" width="746" height="688"/>
         <image name="archivebox.fill" catalog="system" width="128" height="106"/>
         <image name="aus flag" width="455" height="280"/>
         <image name="brazil" width="720" height="504"/>
