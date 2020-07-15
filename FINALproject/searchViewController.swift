@@ -9,14 +9,20 @@
 import UIKit
 
 class searchViewController: UIViewController {
-
-    @IBOutlet weak var tbView: UITableView!
+    @IBOutlet weak var searchBar: UISearchBar!
+       @IBOutlet weak var tbView: UITableView!
     
+    let countryNameArr = ["Italy", "Greece", "Brazil", "Philippines", "Morocco", "Australia", "Ghana"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
     @IBAction func bucketTapped(_ sender: UIBarButtonItem) {
     }
     @IBAction func searchTapped(_ sender: UIButton) {
@@ -25,16 +31,16 @@ class searchViewController: UIViewController {
     }
     @IBAction func homeTapped(_ sender: UIButton) {
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return countryNameArr.count
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        cell?.textLabel?.text = countryNameArr[indexPath.row]
+        return cell!
+    }
 }

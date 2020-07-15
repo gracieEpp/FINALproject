@@ -291,7 +291,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travel bucket (1)" translatesAutoresizingMaskIntoConstraints="NO" id="zLb-t3-qA6">
                                 <rect key="frame" x="-49" y="12" width="345" height="212"/>
                             </imageView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" text="" translatesAutoresizingMaskIntoConstraints="NO" id="uph-Sc-1qY">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" text="" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uph-Sc-1qY">
                                 <rect key="frame" x="51" y="188" width="312" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Vd0-yn-HJs"/>
@@ -396,6 +396,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="I7D-Gd-RHT"/>
                     <connections>
+                        <outlet property="searchBar" destination="uph-Sc-1qY" id="Y1r-w2-Vko"/>
                         <outlet property="tbView" destination="WSD-OW-A6N" id="fIj-A9-dyM"/>
                     </connections>
                 </viewController>
