@@ -16,7 +16,17 @@ class bucketViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func mapTapped(_ sender: UIBarButtonItem) {
+    }
+    @IBAction func searchTapped(_ sender: UIButton) {
+    }
+    @IBAction func bucketTapped(_ sender: UIBarButtonItem) {
+    }
+    @IBAction func homeTapped(_ sender: UIButton) {
+    }
+    @IBAction func plusTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

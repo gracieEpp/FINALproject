@@ -16,7 +16,9 @@ class explanationViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func continueTapped(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
