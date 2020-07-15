@@ -19,6 +19,13 @@
 		18F01BB324BE67E800376394 /* bucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01BB224BE67E800376394 /* bucketViewController.swift */; };
 		18F01BB524BE681B00376394 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01BB424BE681B00376394 /* searchViewController.swift */; };
 		F9D69FC824BE88D6005618EF /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FC724BE88D6005618EF /* mapViewController.swift */; };
+		F9D69FCA24BEA936005618EF /* italyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FC924BEA936005618EF /* italyViewController.swift */; };
+		F9D69FCC24BEA97B005618EF /* greeceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FCB24BEA97B005618EF /* greeceViewController.swift */; };
+		F9D69FCE24BEA9B8005618EF /* australiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FCD24BEA9B8005618EF /* australiaViewController.swift */; };
+		F9D69FD024BEA9F3005618EF /* brazilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FCF24BEA9F3005618EF /* brazilViewController.swift */; };
+		F9D69FD224BEAA15005618EF /* ghanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FD124BEAA15005618EF /* ghanaViewController.swift */; };
+		F9D69FD424BEAA3C005618EF /* moroccoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FD324BEAA3C005618EF /* moroccoViewController.swift */; };
+		F9D69FD624BEAA62005618EF /* philippinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FD524BEAA62005618EF /* philippinesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,13 @@
 		18F01BB224BE67E800376394 /* bucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucketViewController.swift; sourceTree = "<group>"; };
 		18F01BB424BE681B00376394 /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		F9D69FC724BE88D6005618EF /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		F9D69FC924BEA936005618EF /* italyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italyViewController.swift; sourceTree = "<group>"; };
+		F9D69FCB24BEA97B005618EF /* greeceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greeceViewController.swift; sourceTree = "<group>"; };
+		F9D69FCD24BEA9B8005618EF /* australiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = australiaViewController.swift; sourceTree = "<group>"; };
+		F9D69FCF24BEA9F3005618EF /* brazilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brazilViewController.swift; sourceTree = "<group>"; };
+		F9D69FD124BEAA15005618EF /* ghanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ghanaViewController.swift; sourceTree = "<group>"; };
+		F9D69FD324BEAA3C005618EF /* moroccoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moroccoViewController.swift; sourceTree = "<group>"; };
+		F9D69FD524BEAA62005618EF /* philippinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = philippinesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,13 @@
 				F9D69FC724BE88D6005618EF /* mapViewController.swift */,
 				18F01BB224BE67E800376394 /* bucketViewController.swift */,
 				18F01BB424BE681B00376394 /* searchViewController.swift */,
+				F9D69FC924BEA936005618EF /* italyViewController.swift */,
+				F9D69FCB24BEA97B005618EF /* greeceViewController.swift */,
+				F9D69FCD24BEA9B8005618EF /* australiaViewController.swift */,
+				F9D69FCF24BEA9F3005618EF /* brazilViewController.swift */,
+				F9D69FD124BEAA15005618EF /* ghanaViewController.swift */,
+				F9D69FD324BEAA3C005618EF /* moroccoViewController.swift */,
+				F9D69FD524BEAA62005618EF /* philippinesViewController.swift */,
 			);
 			path = FINALproject;
 			sourceTree = "<group>";
@@ -156,14 +177,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D69FD224BEAA15005618EF /* ghanaViewController.swift in Sources */,
 				18F01B9A24BE639100376394 /* ViewController.swift in Sources */,
 				18F01B9624BE639100376394 /* AppDelegate.swift in Sources */,
 				18F01BB324BE67E800376394 /* bucketViewController.swift in Sources */,
 				18F01BA024BE639200376394 /* FINALproject.xcdatamodeld in Sources */,
+				F9D69FCA24BEA936005618EF /* italyViewController.swift in Sources */,
+				F9D69FD024BEA9F3005618EF /* brazilViewController.swift in Sources */,
+				F9D69FCC24BEA97B005618EF /* greeceViewController.swift in Sources */,
 				18F01BAD24BE678100376394 /* HomePageViewController.swift in Sources */,
+				F9D69FD424BEAA3C005618EF /* moroccoViewController.swift in Sources */,
 				18F01BB524BE681B00376394 /* searchViewController.swift in Sources */,
 				F9D69FC824BE88D6005618EF /* mapViewController.swift in Sources */,
+				F9D69FCE24BEA9B8005618EF /* australiaViewController.swift in Sources */,
 				18F01BAF24BE67A900376394 /* explanationViewController.swift in Sources */,
+				F9D69FD624BEAA62005618EF /* philippinesViewController.swift in Sources */,
 				18F01B9824BE639100376394 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

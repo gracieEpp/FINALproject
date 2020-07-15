@@ -348,10 +348,10 @@
             </objects>
             <point key="canvasLocation" x="-878.26086956521749" y="117.85714285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Italy View Controller-->
         <scene sceneID="ady-XT-buS">
             <objects>
-                <viewController id="t1y-gs-ZdT" sceneMemberID="viewController">
+                <viewController id="t1y-gs-ZdT" customClass="italyViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m4y-ah-ow9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -383,6 +383,9 @@
                                 <state key="normal" image="pin">
                                     <color key="titleColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pinTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="fg0-i6-yGd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1D-vh-zdY">
                                 <rect key="frame" x="20" y="312" width="374" height="189"/>
@@ -402,15 +405,20 @@
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="93J-Tr-kRy"/>
                     </view>
+                    <connections>
+                        <outlet property="attractions" destination="VAx-NJ-o6y" id="RUf-Lo-wmr"/>
+                        <outlet property="cities" destination="W1D-vh-zdY" id="8Rx-mz-xYx"/>
+                        <outlet property="italyTitle" destination="5c0-Hb-UHe" id="eY8-qL-sbu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZnN-wJ-2Uy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1341" y="804"/>
         </scene>
-        <!--View Controller-->
+        <!--Greece View Controller-->
         <scene sceneID="dja-jR-sgX">
             <objects>
-                <viewController id="qLF-Om-4eU" sceneMemberID="viewController">
+                <viewController id="qLF-Om-4eU" customClass="greeceViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qbC-O7-Hn9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -442,6 +450,9 @@
                                 <state key="normal" image="pin">
                                     <color key="titleColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pinTapped:" destination="qLF-Om-4eU" eventType="touchUpInside" id="4x7-k2-bF3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IeP-3C-9hh">
                                 <rect key="frame" x="20" y="312" width="374" height="189"/>
@@ -461,15 +472,20 @@
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gQR-wv-hnd"/>
                     </view>
+                    <connections>
+                        <outlet property="attractions" destination="ONh-YI-Mg8" id="9R6-4H-oX8"/>
+                        <outlet property="cities" destination="ONh-YI-Mg8" id="KjW-0I-4ls"/>
+                        <outlet property="greeceTitle" destination="bnU-lZ-FVC" id="HMy-zx-Z9e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pom-xZ-k8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-561" y="804"/>
         </scene>
-        <!--View Controller-->
+        <!--Australia View Controller-->
         <scene sceneID="ohn-qW-OK0">
             <objects>
-                <viewController id="Gnx-CP-Kxa" sceneMemberID="viewController">
+                <viewController id="Gnx-CP-Kxa" customClass="australiaViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Fv-2p-jLH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -501,6 +517,9 @@
                                 <state key="normal" image="pin">
                                     <color key="titleColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pinTapped:" destination="Gnx-CP-Kxa" eventType="touchUpInside" id="KHo-tw-8j0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5t-ix-wFV">
                                 <rect key="frame" x="20" y="312" width="374" height="189"/>
@@ -520,15 +539,20 @@
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="LWb-ye-KFG"/>
                     </view>
+                    <connections>
+                        <outlet property="attractions" destination="tcy-Zq-Znc" id="Jbf-Bx-9CX"/>
+                        <outlet property="australiaTitle" destination="hqB-dH-p9Y" id="SNB-ic-ydY"/>
+                        <outlet property="cities" destination="S5t-ix-wFV" id="z3z-tB-FZE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebE-6b-rOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="222" y="804"/>
         </scene>
-        <!--View Controller-->
+        <!--Brazil View Controller-->
         <scene sceneID="PMr-Dm-Z9p">
             <objects>
-                <viewController id="NJj-vE-aPy" sceneMemberID="viewController">
+                <viewController id="NJj-vE-aPy" customClass="brazilViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eFA-dc-yJg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -560,6 +584,9 @@
                                 <state key="normal" image="pin">
                                     <color key="titleColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pinTapped:" destination="NJj-vE-aPy" eventType="touchUpInside" id="RbO-Sa-NnI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ga-VW-Q6d">
                                 <rect key="frame" x="20" y="312" width="374" height="189"/>
@@ -579,15 +606,20 @@
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="GRP-AU-fsI"/>
                     </view>
+                    <connections>
+                        <outlet property="attractions" destination="eMj-j0-uOe" id="VN6-Ue-ZpI"/>
+                        <outlet property="brazilTitle" destination="3Rm-eM-VC0" id="qNC-20-hgf"/>
+                        <outlet property="cities" destination="6ga-VW-Q6d" id="7vO-2v-PM4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9na-3c-LU2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="993" y="804"/>
         </scene>
-        <!--View Controller-->
+        <!--Ghana View Controller-->
         <scene sceneID="uCA-hD-Frp">
             <objects>
-                <viewController id="zNz-UA-qnq" sceneMemberID="viewController">
+                <viewController id="zNz-UA-qnq" customClass="ghanaViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GJl-qA-XxR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -619,6 +651,9 @@
                                 <state key="normal" image="pin">
                                     <color key="titleColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pinTapped:" destination="zNz-UA-qnq" eventType="touchUpInside" id="STE-iW-Pkg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pR-21-whL">
                                 <rect key="frame" x="20" y="312" width="374" height="189"/>
@@ -638,15 +673,20 @@
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PpU-BG-hhs"/>
                     </view>
+                    <connections>
+                        <outlet property="attractions" destination="n0Q-WZ-lEB" id="db7-nc-b4N"/>
+                        <outlet property="cities" destination="4pR-21-whL" id="p5G-a7-HaU"/>
+                        <outlet property="ghanaTitle" destination="jBO-Sr-8yc" id="Byk-Ff-cM4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbW-3v-t7R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1768" y="804"/>
         </scene>
-        <!--View Controller-->
+        <!--Morocco View Controller-->
         <scene sceneID="OhJ-vG-Cfs">
             <objects>
-                <viewController id="oRc-gI-JYb" sceneMemberID="viewController">
+                <viewController id="oRc-gI-JYb" customClass="moroccoViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GRg-Xe-vrq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -678,6 +718,9 @@
                                 <state key="normal" image="pin">
                                     <color key="titleColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pinTapped:" destination="oRc-gI-JYb" eventType="touchUpInside" id="6jJ-a3-pje"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uly-uA-BJD">
                                 <rect key="frame" x="20" y="312" width="374" height="189"/>
@@ -697,15 +740,20 @@
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fS1-Rv-AgE"/>
                     </view>
+                    <connections>
+                        <outlet property="attractions" destination="27T-dP-bMq" id="3v6-zr-P72"/>
+                        <outlet property="cities" destination="Uly-uA-BJD" id="2OG-Mv-TbS"/>
+                        <outlet property="moroccoTitle" destination="n1q-cw-eOh" id="p4R-WK-Byz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YuQ-MR-QbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2546" y="804"/>
         </scene>
-        <!--View Controller-->
+        <!--Philippines View Controller-->
         <scene sceneID="ipj-0E-lGv">
             <objects>
-                <viewController id="wOx-2a-cFW" sceneMemberID="viewController">
+                <viewController id="wOx-2a-cFW" customClass="philippinesViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bak-eN-vQf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -737,6 +785,9 @@
                                 <state key="normal" image="pin">
                                     <color key="titleColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="pinTapped:" destination="wOx-2a-cFW" eventType="touchUpInside" id="wiq-K0-Ncs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEP-jI-NMX">
                                 <rect key="frame" x="20" y="312" width="374" height="189"/>
@@ -756,6 +807,11 @@
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wMI-7N-FuE"/>
                     </view>
+                    <connections>
+                        <outlet property="attractions" destination="A4H-4z-ugV" id="fDt-8S-qrA"/>
+                        <outlet property="cities" destination="HEP-jI-NMX" id="Sno-Oi-tOh"/>
+                        <outlet property="philippinesTitle" destination="tvw-ct-sGJ" id="b0e-Dl-9ni"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Go1-U6-Tgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
