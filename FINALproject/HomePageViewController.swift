@@ -16,7 +16,9 @@ class HomePageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func globePressed(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

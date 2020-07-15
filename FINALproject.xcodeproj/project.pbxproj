@@ -16,9 +16,9 @@
 		18F01BA524BE639300376394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F01BA324BE639300376394 /* LaunchScreen.storyboard */; };
 		18F01BAD24BE678100376394 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01BAC24BE678100376394 /* HomePageViewController.swift */; };
 		18F01BAF24BE67A900376394 /* explanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01BAE24BE67A900376394 /* explanationViewController.swift */; };
-		18F01BB124BE67C500376394 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01BB024BE67C500376394 /* mapViewController.swift */; };
 		18F01BB324BE67E800376394 /* bucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01BB224BE67E800376394 /* bucketViewController.swift */; };
 		18F01BB524BE681B00376394 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01BB424BE681B00376394 /* searchViewController.swift */; };
+		F9D69FC824BE88D6005618EF /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D69FC724BE88D6005618EF /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,9 @@
 		18F01BA624BE639300376394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F01BAC24BE678100376394 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		18F01BAE24BE67A900376394 /* explanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explanationViewController.swift; sourceTree = "<group>"; };
-		18F01BB024BE67C500376394 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		18F01BB224BE67E800376394 /* bucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucketViewController.swift; sourceTree = "<group>"; };
 		18F01BB424BE681B00376394 /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		F9D69FC724BE88D6005618EF /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 				18F01B9E24BE639200376394 /* FINALproject.xcdatamodeld */,
 				18F01BAC24BE678100376394 /* HomePageViewController.swift */,
 				18F01BAE24BE67A900376394 /* explanationViewController.swift */,
-				18F01BB024BE67C500376394 /* mapViewController.swift */,
+				F9D69FC724BE88D6005618EF /* mapViewController.swift */,
 				18F01BB224BE67E800376394 /* bucketViewController.swift */,
 				18F01BB424BE681B00376394 /* searchViewController.swift */,
 			);
@@ -162,7 +162,7 @@
 				18F01BA024BE639200376394 /* FINALproject.xcdatamodeld in Sources */,
 				18F01BAD24BE678100376394 /* HomePageViewController.swift in Sources */,
 				18F01BB524BE681B00376394 /* searchViewController.swift in Sources */,
-				18F01BB124BE67C500376394 /* mapViewController.swift in Sources */,
+				F9D69FC824BE88D6005618EF /* mapViewController.swift in Sources */,
 				18F01BAF24BE67A900376394 /* explanationViewController.swift in Sources */,
 				18F01B9824BE639100376394 /* SceneDelegate.swift in Sources */,
 			);

@@ -2,7 +2,7 @@
 //  mapViewController.swift
 //  FINALproject
 //
-//  Created by Apple on 7/14/20.
+//  Created by Julia Bub on 7/14/20.
 //  Copyright © 2020 Gracie. All rights reserved.
 //
 
@@ -15,6 +15,8 @@ class mapViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+}
+    
     
 
     /*
@@ -27,4 +29,4 @@ class mapViewController: UIViewController {
     }
     */
 
-}
+
