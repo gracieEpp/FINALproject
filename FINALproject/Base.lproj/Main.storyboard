@@ -1527,6 +1527,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="OS5-p9-Rsz" kind="show" id="AkF-ix-wHm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1s-dM-afp">
                                 <rect key="frame" x="0.0" y="810" width="414" height="52"/>
@@ -1542,11 +1545,17 @@
                                 <state key="normal" image="archivebox.fill" catalog="system">
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="FnO-qM-JRE" kind="show" id="gvy-Ng-Vwt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84m-5C-65p">
                                 <rect key="frame" x="195" y="826" width="20" height="22"/>
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
+                                <connections>
+                                    <segue destination="cWb-bL-q0C" kind="show" id="LNO-cl-PW3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUx-ro-wlU">
                                 <rect key="frame" x="351" y="821" width="31" height="33"/>
@@ -1555,6 +1564,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="wXE-57-NPh" kind="show" id="pCt-zR-JHS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bAA-YN-t5X">
                                 <rect key="frame" x="304" y="222" width="90" height="52"/>
@@ -1594,14 +1606,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bha-tZ-a3c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4604" y="804"/>
+            <point key="canvasLocation" x="4694" y="804"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ywd-8i-3iw"/>
-        <segue reference="s83-r7-uFj"/>
-        <segue reference="2ia-Fv-jsX"/>
-        <segue reference="KbP-P6-PDb"/>
+        <segue reference="pCt-zR-JHS"/>
+        <segue reference="LNO-cl-PW3"/>
+        <segue reference="gvy-Ng-Vwt"/>
+        <segue reference="AkF-ix-wHm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Flag-Israel" width="800" height="582"/>
