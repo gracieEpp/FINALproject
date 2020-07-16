@@ -51,9 +51,10 @@ class mapViewController: UIViewController {
                                       mapView.addAnnotation(annotationsAustralia)
                 //Australia coordinates: -23.700552, 133.882675
                 
-                //let annotations = MKPointAnnotation()
-                      //                      annotations.coordinate = CLLocationCoordinate2DMake()
-                      //                      mapView.addAnnotation(annotations)
+                let annotationsRussia = MKPointAnnotation()
+                                            annotationsRussia.coordinate = CLLocationCoordinate2DMake(61.524010, 105.318756)
+                                            mapView.addAnnotation(annotationsRussia)
+        //Russia Coordinates: 56.833332, 60.583332; 69.3558, 88.1893
                 
             }
 
