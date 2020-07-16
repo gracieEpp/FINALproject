@@ -491,6 +491,21 @@
             </objects>
             <point key="canvasLocation" x="3368" y="-183"/>
         </scene>
+        <!--Menu Countries View Controller-->
+        <scene sceneID="WUC-r8-D1l">
+            <objects>
+                <viewController id="65n-0e-fKu" customClass="menuCountriesViewController" customModule="FINALproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="33q-28-2Ut">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.56017589629999998" green="0.78063531090000005" blue="0.48341668900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="A6O-sf-nb6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fAt-sP-DRz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4295.652173913044" y="-174.10714285714286"/>
+        </scene>
         <!--Italy View Controller-->
         <scene sceneID="ady-XT-buS">
             <objects>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18EC60F024C0F4C900D28542 /* menuCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC60EF24C0F4C900D28542 /* menuCountriesViewController.swift */; };
 		18F01B9624BE639100376394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01B9524BE639100376394 /* AppDelegate.swift */; };
 		18F01B9824BE639100376394 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01B9724BE639100376394 /* SceneDelegate.swift */; };
 		18F01B9A24BE639100376394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F01B9924BE639100376394 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18EC60EF24C0F4C900D28542 /* menuCountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCountriesViewController.swift; sourceTree = "<group>"; };
 		18F01B9224BE639100376394 /* FINALproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FINALproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F01B9524BE639100376394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F01B9724BE639100376394 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				F9D69FD324BEAA3C005618EF /* moroccoViewController.swift */,
 				F9D69FD524BEAA62005618EF /* philippinesViewController.swift */,
 				F94CDD5424C0E0CA0018F80D /* russiaViewController.swift */,
+				18EC60EF24C0F4C900D28542 /* menuCountriesViewController.swift */,
 			);
 			path = FINALproject;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				18F01BB524BE681B00376394 /* searchViewController.swift in Sources */,
 				F9D69FC824BE88D6005618EF /* mapViewController.swift in Sources */,
 				F9D69FCE24BEA9B8005618EF /* australiaViewController.swift in Sources */,
+				18EC60F024C0F4C900D28542 /* menuCountriesViewController.swift in Sources */,
 				18F01BAF24BE67A900376394 /* explanationViewController.swift in Sources */,
 				F9D69FD624BEAA62005618EF /* philippinesViewController.swift in Sources */,
 				18F01B9824BE639100376394 /* SceneDelegate.swift in Sources */,
