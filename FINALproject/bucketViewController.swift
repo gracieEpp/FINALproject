@@ -9,25 +9,24 @@
 import UIKit
 
 class bucketViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
 
-    
+        
     @IBAction func mapTapped(_ sender: UIButton) {
-    }
+        }
     @IBAction func searchTapped(_ sender: UIButton) {
-    }
+        }
     @IBAction func bucketTapped(_ sender: UIButton) {
-    }
+        }
     @IBAction func homeTapped(_ sender: UIButton) {
-    }
+        }
     @IBAction func plusTapped(_ sender: UIButton) {
-    }
+        }
     
     /*
     // MARK: - Navigation
@@ -38,5 +37,6 @@ class bucketViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
 
 }

@@ -19,6 +19,7 @@ class italyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func pinTapped(_ sender: UIButton) {
+        
     }
     @IBAction func bucketTapped(_ sender: UIButton) {
     }
