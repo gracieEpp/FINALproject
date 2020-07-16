@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t1y-gs-ZdT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wXE-57-NPh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -483,6 +483,9 @@
                         <viewLayoutGuide key="safeArea" id="Uem-hM-7y3"/>
                     </view>
                     <navigationItem key="navigationItem" id="dn5-sh-SxO"/>
+                    <connections>
+                        <outlet property="mapView" destination="lNp-fV-l2s" id="A3X-fT-69q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eN6-Bu-n57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1611,9 +1614,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="pCt-zR-JHS"/>
-        <segue reference="LNO-cl-PW3"/>
-        <segue reference="gvy-Ng-Vwt"/>
-        <segue reference="AkF-ix-wHm"/>
+        <segue reference="JwD-h4-GFg"/>
+        <segue reference="Q3u-yp-pzI"/>
+        <segue reference="UdN-kj-G7G"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Flag-Israel" width="800" height="582"/>
