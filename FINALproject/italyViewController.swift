@@ -21,11 +21,11 @@ class italyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func saveCountryTapped(_ sender: UIButton) {
-        previousVC.label1.text = ("Italy")
-        previousVC.label1.textAlignment = .center
-        previousVC.label1.textColor = UIColor(red: 84/256, green: 67/256, blue: 35/256, alpha: 1.0)
-        previousVC.label1.font = UIFont(name: "Big Caslon Medium", size: CGFloat(22))
-    }
+        previousVC.label1?.text = "Italy"
+        previousVC.label1?.textAlignment = .center
+        previousVC.label1?.textColor = UIColor(red: 84/256, green: 67/256, blue: 35/256, alpha: 1.0)
+        previousVC.label1?.font = UIFont(name: "Big Caslon Medium", size: CGFloat(22))
+   }
     
     
 

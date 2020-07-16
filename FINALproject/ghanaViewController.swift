@@ -18,7 +18,9 @@ class ghanaViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func addTapped(_ sender: UIButton) {
+    }
+    
     
 
     /*

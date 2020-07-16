@@ -1,15 +1,15 @@
 //
-//  brazilViewController.swift
+//  israelViewController.swift
 //  FINALproject
 //
-//  Created by Julia Bub on 7/14/20.
+//  Created by Julia Bub on 7/16/20.
 //  Copyright © 2020 Gracie. All rights reserved.
 //
 
 import UIKit
 
-class brazilViewController: UIViewController {
-    @IBOutlet weak var brazilTitle: UILabel!
+class israelViewController: UIViewController {
+    @IBOutlet weak var israelTitle: UILabel!
     @IBOutlet weak var cities: UILabel!
     @IBOutlet weak var attractions: UILabel!
     
@@ -20,7 +20,6 @@ class brazilViewController: UIViewController {
     }
     @IBAction func addTapped(_ sender: UIButton) {
     }
-    
     
 
     /*
