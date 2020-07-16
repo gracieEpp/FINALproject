@@ -408,10 +408,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="I7D-Gd-RHT"/>
                     <connections>
-                        <outlet property="bucketTapped" destination="IFO-YM-2qi" id="3zf-jo-kT8"/>
-                        <outlet property="countrySearch" destination="uph-Sc-1qY" id="ZbJ-hc-JH3"/>
                         <outlet property="searchBar" destination="uph-Sc-1qY" id="tee-pZ-CLE"/>
-                        <outlet property="tbView" destination="WSD-OW-A6N" id="fIj-A9-dyM"/>
                         <outlet property="tblView" destination="WSD-OW-A6N" id="6fR-9k-itg"/>
                     </connections>
                 </viewController>
@@ -1523,10 +1520,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SKb-Xw-dTe"/>
-        <segue reference="iaD-l5-9xh"/>
-        <segue reference="mGb-7h-Iee"/>
-        <segue reference="U2K-uG-BjZ"/>
+        <segue reference="JaT-U9-sDH"/>
+        <segue reference="K9Q-hm-1kI"/>
+        <segue reference="SvG-lB-14d"/>
+        <segue reference="5Zi-lG-G6f"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_8738" width="746" height="688"/>
