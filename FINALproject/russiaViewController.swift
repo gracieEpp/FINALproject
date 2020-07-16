@@ -8,8 +8,8 @@
 
 import UIKit
 
-class israelViewController: UIViewController {
-    @IBOutlet weak var israelTitle: UILabel!
+class russiaViewController: UIViewController {
+    @IBOutlet weak var russiaTitle: UILabel!
     @IBOutlet weak var cities: UILabel!
     @IBOutlet weak var attractions: UILabel!
     
