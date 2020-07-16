@@ -13,6 +13,8 @@ class searchViewController: UIViewController {
        @IBOutlet weak var tbView: UITableView!
     
     let countryNameArr = ["Italy", "Greece", "Brazil", "Philippines", "Morocco", "Australia", "Ghana"]
+    var searchCountry = [String]()
+    var searching = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,12 +37,35 @@ class searchViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return countryNameArr.count
+        if searching {
+           return searchCountry.count
+        } else {
+            return countryNameArr.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
-        cell?.textLabel?.text = countryNameArr[indexPath.row]
+        if searching {
+            cell?.textLabel?.text = searchCountry[indexPath.row]
+        }
+        else {
+            cell?.textLabel?.text = countryNameArr[indexPath.row]
+        }
         return cell!
+    }
+}
+
+extension ViewController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        searchCountry = countryNameArr.filter({$0.lowercased().prefix(searchText.count) == searchText.lowercased()})
+        searching = true
+        tbleView.reloadData()
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searching = false
+        searchBar.text = ""
+        tblView.reloadData()
     }
 }
