@@ -105,7 +105,7 @@
                                 </state>
                                 <connections>
                                     <action selector="continueTapped:" destination="OS5-p9-Rsz" eventType="touchUpInside" id="JOc-E0-yKY"/>
-                                    <segue destination="cWb-bL-q0C" kind="show" id="K9Q-hm-1kI"/>
+                                    <segue destination="cWb-bL-q0C" kind="show" id="vc5-n2-L2Y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1497,7 +1497,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="nBv-RW-pnh"/>
-        <segue reference="JwD-h4-GFg"/>
+        <segue reference="vc5-n2-L2Y"/>
         <segue reference="Q3u-yp-pzI"/>
         <segue reference="UdN-kj-G7G"/>
     </inferredMetricsTieBreakers>
