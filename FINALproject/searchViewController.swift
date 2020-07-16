@@ -11,7 +11,7 @@ import UIKit
 class searchViewController: UIViewController {
     
 
-    let countryNameArr = ["Italy", "Greece", "Brazil", "Philippines", "Morocco", "Australia", "Ghana"]
+    let countryNameArr = ["Italy", "Greece", "Brazil", "Philippines", "Morocco", "Australia", "Ghana", "Russia"]
     var searchedCountry = [String]()
     var searching = false
     

@@ -789,14 +789,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YF1-oQ-AUz">
-                                <rect key="frame" x="363" y="8" width="41" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="rBC-3R-w93"/>
-                                </constraints>
-                                <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="house.fill" catalog="system"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bib-bv-mxj">
                                 <rect key="frame" x="0.0" y="717" width="414" height="52"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -822,6 +814,17 @@
                                     <segue destination="cWb-bL-q0C" kind="show" id="iaD-l5-9xh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyR-Uu-3TR">
+                                <rect key="frame" x="373" y="726" width="31" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="31" id="7TM-Q9-uDD"/>
+                                </constraints>
+                                <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="map.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="wXE-57-NPh" kind="show" id="SKb-Xw-dTe"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="THg-gW-J6b">
                                 <rect key="frame" x="304" y="168" width="90" height="52"/>
                                 <color key="backgroundColor" red="0.60910087820000003" green="0.75759303570000003" blue="0.49002510310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -843,15 +846,15 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="tWY-gz-9ln"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyR-Uu-3TR">
-                                <rect key="frame" x="373" y="726" width="31" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YF1-oQ-AUz">
+                                <rect key="frame" x="363" y="20" width="41" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="31" id="7TM-Q9-uDD"/>
+                                    <constraint firstAttribute="height" constant="45" id="rBC-3R-w93"/>
                                 </constraints>
-                                <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="map.fill" catalog="system"/>
+                                <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
-                                    <segue destination="wXE-57-NPh" kind="show" id="SKb-Xw-dTe"/>
+                                    <segue destination="65n-0e-fKu" kind="show" id="wnK-ie-AWs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1011,6 +1014,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="65n-0e-fKu" kind="show" id="1JL-L8-7ht"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1169,6 +1175,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="65n-0e-fKu" kind="show" id="rCS-0J-pIC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1325,6 +1334,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="65n-0e-fKu" kind="show" id="Ngr-jJ-xvG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1480,6 +1492,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="65n-0e-fKu" kind="show" id="a9C-fM-xe1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1632,6 +1647,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="65n-0e-fKu" kind="show" id="wE7-kH-8tO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1692,14 +1710,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlr-h9-VVq">
-                                <rect key="frame" x="363" y="0.0" width="41" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="gHw-qW-y4P"/>
-                                </constraints>
-                                <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="house.fill" catalog="system"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gM8-bk-EPP">
                                 <rect key="frame" x="0.0" y="697" width="414" height="52"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1725,6 +1735,14 @@
                                     <segue destination="cWb-bL-q0C" kind="show" id="s83-r7-uFj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTR-KO-0yt">
+                                <rect key="frame" x="368" y="707" width="31" height="33"/>
+                                <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="map.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="wXE-57-NPh" kind="show" id="ywd-8i-3iw"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xac-wY-xGx">
                                 <rect key="frame" x="321" y="173" width="90" height="52"/>
                                 <color key="backgroundColor" red="0.60910087820000003" green="0.75759303570000003" blue="0.49002510310000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1747,12 +1765,15 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="FGj-Fr-aSh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTR-KO-0yt">
-                                <rect key="frame" x="368" y="707" width="31" height="33"/>
-                                <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="map.fill" catalog="system"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlr-h9-VVq">
+                                <rect key="frame" x="363" y="0.0" width="41" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="gHw-qW-y4P"/>
+                                </constraints>
+                                <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
-                                    <segue destination="wXE-57-NPh" kind="show" id="ywd-8i-3iw"/>
+                                    <segue destination="65n-0e-fKu" kind="show" id="4Km-Wj-y1D"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1855,6 +1876,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="65n-0e-fKu" kind="show" id="LOs-tQ-iA6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1s-dM-afp">
                                 <rect key="frame" x="0.0" y="707" width="414" height="52"/>
@@ -1965,10 +1989,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8Vm-OO-43a"/>
-        <segue reference="SKb-Xw-dTe"/>
-        <segue reference="iaD-l5-9xh"/>
-        <segue reference="mGb-7h-Iee"/>
+        <segue reference="LOs-tQ-iA6"/>
+        <segue reference="pCt-zR-JHS"/>
+        <segue reference="LNO-cl-PW3"/>
+        <segue reference="gvy-Ng-Vwt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_8738" width="746" height="688"/>
