@@ -296,7 +296,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Vd0-yn-HJs"/>
                                 </constraints>
-                                <color key="barTintColor" red="0.15529462990000001" green="0.25967877630000002" blue="0.56546148819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="cWb-bL-q0C" id="h8e-C4-jT5"/>
@@ -397,7 +398,7 @@
                     <navigationItem key="navigationItem" id="I7D-Gd-RHT"/>
                     <connections>
                         <outlet property="countrySearch" destination="uph-Sc-1qY" id="ZbJ-hc-JH3"/>
-                        <outlet property="searchBar" destination="uph-Sc-1qY" id="Y1r-w2-Vko"/>
+                        <outlet property="searchBar" destination="uph-Sc-1qY" id="tee-pZ-CLE"/>
                         <outlet property="tbView" destination="WSD-OW-A6N" id="fIj-A9-dyM"/>
                         <outlet property="tblView" destination="WSD-OW-A6N" id="6fR-9k-itg"/>
                     </connections>
