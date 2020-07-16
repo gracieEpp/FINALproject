@@ -396,8 +396,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="I7D-Gd-RHT"/>
                     <connections>
+                        <outlet property="countrySearch" destination="uph-Sc-1qY" id="ZbJ-hc-JH3"/>
                         <outlet property="searchBar" destination="uph-Sc-1qY" id="Y1r-w2-Vko"/>
                         <outlet property="tbView" destination="WSD-OW-A6N" id="fIj-A9-dyM"/>
+                        <outlet property="tblView" destination="WSD-OW-A6N" id="6fR-9k-itg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMW-45-aat" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
