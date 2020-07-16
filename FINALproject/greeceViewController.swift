@@ -19,17 +19,7 @@ class greeceViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func pinTapped(_ sender: UIButton) {
-    }
-    @IBAction func bucketTapped(_ sender: UIButton) {
-    }
-    @IBAction func searchTapped(_ sender: UIButton) {
-    }
-    @IBAction func mapTapped(_ sender: UIButton) {
-    }
-    @IBAction func homeTapped(_ sender: UIButton) {
-    }
-    
+
 
     /*
     // MARK: - Navigation

@@ -18,6 +18,7 @@ class searchViewController: UIViewController {
     @IBOutlet weak var tblView: UITableView!
     @IBOutlet weak var countrySearch: UISearchBar!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         countrySearch.delegate = self
@@ -27,15 +28,7 @@ class searchViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     }
-//    @IBAction func homeTapped(_ sender: UIButton) {
-//    }
-//    @IBAction func bucketTapped(_ sender: UIButton) {
-//    }
-//    @IBAction func searchTapped(_ sender: UIButton) {
-//    }
-//    @IBAction func mapTapped(_ sender: UIButton) {
-//    }
-//
+
     
 extension searchViewController: UITableViewDelegate, UITableViewDataSource {
 

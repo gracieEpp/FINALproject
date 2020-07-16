@@ -17,16 +17,6 @@ class bucketViewController: UIViewController {
     }
 
         
-    @IBAction func mapTapped(_ sender: UIButton) {
-        }
-    @IBAction func searchTapped(_ sender: UIButton) {
-        }
-    @IBAction func bucketTapped(_ sender: UIButton) {
-        }
-    @IBAction func homeTapped(_ sender: UIButton) {
-        }
-    @IBAction func plusTapped(_ sender: UIButton) {
-        }
     
     /*
     // MARK: - Navigation
