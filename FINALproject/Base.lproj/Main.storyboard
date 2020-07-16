@@ -1491,7 +1491,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Flag-Israel" translatesAutoresizingMaskIntoConstraints="NO" id="nLc-rf-GgF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="russian-flag" translatesAutoresizingMaskIntoConstraints="NO" id="nLc-rf-GgF">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1501,7 +1501,7 @@
                                 <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Israel">
+                                    <fragment content="Russia">
                                         <attributes>
                                             <color key="NSColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="40" name="Optima-ExtraBlack"/>
@@ -1614,12 +1614,11 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="pCt-zR-JHS"/>
-        <segue reference="JwD-h4-GFg"/>
-        <segue reference="Q3u-yp-pzI"/>
-        <segue reference="UdN-kj-G7G"/>
+        <segue reference="LNO-cl-PW3"/>
+        <segue reference="gvy-Ng-Vwt"/>
+        <segue reference="AkF-ix-wHm"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Flag-Israel" width="800" height="582"/>
         <image name="IMG_8738" width="746" height="688"/>
         <image name="archivebox.fill" catalog="system" width="128" height="106"/>
         <image name="aus flag" width="455" height="280"/>
@@ -1637,6 +1636,7 @@
         <image name="mappin.circle.fill" catalog="system" width="128" height="121"/>
         <image name="morocco" width="1200" height="800"/>
         <image name="phil" width="600" height="300"/>
+        <image name="russian-flag" width="1332" height="850"/>
         <image name="travel bucket" width="1296" height="1728"/>
         <image name="travel bucket (1)" width="1296" height="1728"/>
         <image name="welcome" width="570" height="230"/>
