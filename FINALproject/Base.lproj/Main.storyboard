@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-181.15942028985509" y="117.85714285714285"/>
+            <point key="canvasLocation" x="-2300" y="-183"/>
         </scene>
         <!--Explanation View Controller-->
         <scene sceneID="SGR-Se-p88">
@@ -75,7 +75,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="fIR-xr-HQh">
                                 <rect key="frame" x="0.0" y="29" width="414" height="192"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="192" id="CGQ-Cj-FaR"/>
+                                    <constraint firstAttribute="height" constant="192" id="PTP-g8-gkB"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="welcomeParagraph" translatesAutoresizingMaskIntoConstraints="NO" id="PQQ-EK-0UN">
@@ -84,45 +84,46 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="IMG_8738" translatesAutoresizingMaskIntoConstraints="NO" id="afQ-BQ-xHE">
                                 <rect key="frame" x="73" y="575" width="269" height="153"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="153" id="AX4-eX-aQa"/>
+                                    <constraint firstAttribute="height" constant="153" id="kuk-7g-ngr"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XDv-iz-qxr">
-                                <rect key="frame" x="145" y="758" width="125" height="44"/>
-                                <color key="backgroundColor" red="0.81911772490000001" green="0.73735994100000002" blue="0.55014216900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfe-7t-hFn">
+                                <rect key="frame" x="121" y="748" width="172" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="h7V-kJ-y7X"/>
+                                    <constraint firstAttribute="height" constant="44" id="HbT-mI-QDa"/>
                                 </constraints>
-                                <state key="normal">
+                                <state key="normal" title="continue">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Continue">
+                                        <fragment content="continue">
                                             <attributes>
-                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <font key="NSFont" size="26" name="BanglaSangamMN"/>
+                                                <color key="NSColor" red="0.32941176470588235" green="0.26128906010000003" blue="0.13571906089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="25" name="BigCaslon-Medium"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="cWb-bL-q0C" kind="show" id="pNi-hL-p23"/>
+                                    <action selector="continueTapped:" destination="OS5-p9-Rsz" eventType="touchUpInside" id="JOc-E0-yKY"/>
+                                    <segue destination="cWb-bL-q0C" kind="show" id="K9Q-hm-1kI"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.56017589629999998" green="0.78063531090000005" blue="0.48341668900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="centerX" secondItem="SaZ-ef-jad" secondAttribute="centerX" id="1mh-Vu-sTR"/>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="centerX" secondItem="PQQ-EK-0UN" secondAttribute="centerX" id="7uD-7U-i3p"/>
-                            <constraint firstItem="XDv-iz-qxr" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" constant="145" id="EbG-i4-JMt"/>
-                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="top" secondItem="PQQ-EK-0UN" secondAttribute="bottom" constant="8" id="IxM-y7-LJz"/>
-                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="leading" secondItem="SaZ-ef-jad" secondAttribute="leadingMargin" constant="-47" id="LQ7-3z-KeA"/>
-                            <constraint firstItem="XDv-iz-qxr" firstAttribute="top" secondItem="afQ-BQ-xHE" secondAttribute="bottom" constant="30" id="Rjj-W8-RsG"/>
-                            <constraint firstItem="gvn-kL-abz" firstAttribute="bottom" secondItem="XDv-iz-qxr" secondAttribute="bottom" constant="6" id="TCi-VU-jQK"/>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="top" secondItem="gvn-kL-abz" secondAttribute="top" constant="29" id="YCm-9v-Ne3"/>
-                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" constant="73" id="ns2-0j-gni"/>
-                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="centerX" secondItem="afQ-BQ-xHE" secondAttribute="centerX" id="vNp-tK-cjv"/>
-                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="centerX" secondItem="XDv-iz-qxr" secondAttribute="centerX" id="vpk-WD-id8"/>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" id="xrv-YS-J2S"/>
-                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="top" secondItem="fIR-xr-HQh" secondAttribute="bottom" constant="8" id="yIm-V3-Z8f"/>
+                            <constraint firstItem="jfe-7t-hFn" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" constant="121" id="12B-zv-dnR"/>
+                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="top" secondItem="fIR-xr-HQh" secondAttribute="bottom" constant="8" id="1m1-oq-7tp"/>
+                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="centerX" secondItem="jfe-7t-hFn" secondAttribute="centerX" id="IAh-Hf-Tg9"/>
+                            <constraint firstItem="fIR-xr-HQh" firstAttribute="centerX" secondItem="SaZ-ef-jad" secondAttribute="centerX" id="IWd-UI-erU"/>
+                            <constraint firstItem="jfe-7t-hFn" firstAttribute="top" secondItem="afQ-BQ-xHE" secondAttribute="bottom" constant="20" id="PTW-Rq-PMu"/>
+                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="centerX" secondItem="afQ-BQ-xHE" secondAttribute="centerX" id="VG9-hD-cOa"/>
+                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" constant="73" id="VLM-Qc-RX0"/>
+                            <constraint firstItem="fIR-xr-HQh" firstAttribute="top" secondItem="gvn-kL-abz" secondAttribute="top" constant="29" id="bBM-Rv-hUX"/>
+                            <constraint firstItem="gvn-kL-abz" firstAttribute="bottom" secondItem="jfe-7t-hFn" secondAttribute="bottom" constant="16" id="c6i-FH-r8j"/>
+                            <constraint firstItem="fIR-xr-HQh" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" id="jAZ-kp-ZgF"/>
+                            <constraint firstItem="fIR-xr-HQh" firstAttribute="centerX" secondItem="PQQ-EK-0UN" secondAttribute="centerX" id="ooj-Pp-bzM"/>
+                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="top" secondItem="PQQ-EK-0UN" secondAttribute="bottom" constant="8" id="tLP-Dw-W3k"/>
+                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="leading" secondItem="SaZ-ef-jad" secondAttribute="leadingMargin" constant="-47" id="veB-do-dOg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gvn-kL-abz"/>
                     </view>
@@ -130,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epM-or-UXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="550.72463768115949" y="117.85714285714285"/>
+            <point key="canvasLocation" x="-932" y="-183"/>
         </scene>
         <!--Bucket View Controller-->
         <scene sceneID="hgC-jC-LBm">
@@ -201,6 +202,7 @@
                                 <color key="tintColor" red="0.2419156619" green="0.28816394470000001" blue="0.57919574870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="FnO-qM-JRE" eventType="touchUpInside" id="ssQ-K6-Hry"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="uig-DU-DE4"/>
                                 </connections>
                             </button>
@@ -212,6 +214,7 @@
                                 <color key="tintColor" red="0.2419156619" green="0.28816394470000001" blue="0.57919574870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="FnO-qM-JRE" eventType="touchUpInside" id="8q2-4p-4VA"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="2zT-xk-tZt"/>
                                 </connections>
                             </button>
@@ -221,6 +224,9 @@
                                 <state key="normal" image="archivebox.fill" catalog="system">
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="bucketTapped:" destination="FnO-qM-JRE" eventType="touchUpInside" id="K5h-lm-RDp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.81960784313725488" green="0.73725490196078436" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -266,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UuP-CK-eXF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1961" y="118"/>
+            <point key="canvasLocation" x="1961" y="-183"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="sTf-Qz-3Wn">
@@ -284,25 +290,13 @@
                                 <color key="tintColor" red="0.15529462990000001" green="0.25967877630000002" blue="0.56546148819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="zFI-oM-nep"/>
+                                    <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="gJ8-qm-ZFl"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="5Zi-lG-G6f"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travel bucket (1)" translatesAutoresizingMaskIntoConstraints="NO" id="zLb-t3-qA6">
                                 <rect key="frame" x="-49" y="12" width="345" height="212"/>
                             </imageView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" text="" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uph-Sc-1qY">
-                                <rect key="frame" x="51" y="188" width="312" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Vd0-yn-HJs"/>
-                                </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="cWb-bL-q0C" id="h8e-C4-jT5"/>
-                                </connections>
-                            </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WSD-OW-A6N">
                                 <rect key="frame" x="69" y="271" width="276" height="441"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -342,6 +336,9 @@
                                 <rect key="frame" x="197" y="780" width="20" height="22"/>
                                 <color key="tintColor" red="0.2419156619" green="0.28816394470000001" blue="0.57919574870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
+                                <connections>
+                                    <action selector="searchTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="fSu-th-rHL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNg-LF-puc">
                                 <rect key="frame" x="353" y="775" width="31" height="33"/>
@@ -351,6 +348,7 @@
                                 <color key="tintColor" red="0.2419156619" green="0.28816394470000001" blue="0.57919574870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="WGk-hs-1wK"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="JaT-U9-sDH"/>
                                 </connections>
                             </button>
@@ -361,9 +359,22 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="j05-Eo-9Mi"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="SvG-lB-14d"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" misplaced="YES" searchBarStyle="minimal" text="" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uph-Sc-1qY">
+                                <rect key="frame" x="41" y="180" width="333" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Vd0-yn-HJs"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="cWb-bL-q0C" id="h8e-C4-jT5"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="0.81960784310000001" green="0.73725490199999999" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -397,6 +408,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="I7D-Gd-RHT"/>
                     <connections>
+                        <outlet property="bucketTapped" destination="IFO-YM-2qi" id="3zf-jo-kT8"/>
                         <outlet property="countrySearch" destination="uph-Sc-1qY" id="ZbJ-hc-JH3"/>
                         <outlet property="searchBar" destination="uph-Sc-1qY" id="tee-pZ-CLE"/>
                         <outlet property="tbView" destination="WSD-OW-A6N" id="fIj-A9-dyM"/>
@@ -405,7 +417,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMW-45-aat" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1234.7826086956522" y="117.85714285714285"/>
+            <point key="canvasLocation" x="461" y="-183"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="pXb-Ae-RDD">
@@ -415,18 +427,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travel bucket" translatesAutoresizingMaskIntoConstraints="NO" id="5HF-0R-B4y">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="travel bucket" translatesAutoresizingMaskIntoConstraints="NO" id="5HF-0R-B4y">
                                 <rect key="frame" x="0.0" y="20" width="353" height="164"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="164" id="UgZ-oB-Mrs"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-8d-guw">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbe-8d-guw">
                                 <rect key="frame" x="353" y="44" width="41" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="41" id="9sj-AI-p7o"/>
-                                    <constraint firstAttribute="height" constant="45" id="ku1-8y-N8K"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.81902363580000004" green="0.73745700459999997" blue="0.56882893710000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
@@ -434,74 +441,58 @@
                                     <segue destination="OS5-p9-Rsz" kind="show" id="UdN-kj-G7G"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="world-map-large" translatesAutoresizingMaskIntoConstraints="NO" id="8uf-1r-tQe">
-                                <rect key="frame" x="0.0" y="136" width="414" height="628"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO3-tY-MDS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO3-tY-MDS">
                                 <rect key="frame" x="0.0" y="765" width="414" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="my2-0c-VVY">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="my2-0c-VVY">
                                 <rect key="frame" x="26" y="781" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="archivebox.fill" catalog="system">
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="wXE-57-NPh" eventType="touchUpInside" id="y2t-Rj-jnE"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="Q3u-yp-pzI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIX-2r-CYj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIX-2r-CYj">
                                 <rect key="frame" x="195" y="781" width="20" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="wXE-57-NPh" eventType="touchUpInside" id="VE3-Xc-bzl"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="sAC-q5-kyo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNX-6V-xDA">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNX-6V-xDA">
                                 <rect key="frame" x="351" y="776" width="31" height="33"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="31" id="F6w-3Y-ops"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="mapTapped:" destination="wXE-57-NPh" eventType="touchUpInside" id="cdc-Z8-k3H"/>
+                                </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lNp-fV-l2s">
+                                <rect key="frame" x="0.0" y="171" width="414" height="597"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725490196078" green="0.39215686274509803" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="PO3-tY-MDS" secondAttribute="bottom" constant="-9" id="1yy-Af-1PE"/>
-                            <constraint firstItem="my2-0c-VVY" firstAttribute="baseline" secondItem="sIX-2r-CYj" secondAttribute="baseline" id="2Js-Fh-duo"/>
-                            <constraint firstItem="PO3-tY-MDS" firstAttribute="top" secondItem="8uf-1r-tQe" secondAttribute="bottom" constant="1" id="3kR-Gz-1U8"/>
-                            <constraint firstItem="8uf-1r-tQe" firstAttribute="leading" secondItem="PO3-tY-MDS" secondAttribute="leading" id="3nS-ei-xxR"/>
-                            <constraint firstItem="Uem-hM-7y3" firstAttribute="bottom" secondItem="my2-0c-VVY" secondAttribute="bottom" constant="5" id="8pA-5n-8RS"/>
-                            <constraint firstItem="8uf-1r-tQe" firstAttribute="trailing" secondItem="PO3-tY-MDS" secondAttribute="trailing" id="Cn3-6q-cEt"/>
-                            <constraint firstItem="my2-0c-VVY" firstAttribute="top" secondItem="sIX-2r-CYj" secondAttribute="top" id="EfU-63-eUt"/>
-                            <constraint firstItem="5HF-0R-B4y" firstAttribute="leading" secondItem="8uf-1r-tQe" secondAttribute="leading" id="Fq6-Z3-wm0"/>
-                            <constraint firstItem="Uem-hM-7y3" firstAttribute="trailing" secondItem="wNX-6V-xDA" secondAttribute="trailing" constant="32" id="I1V-ji-BJj"/>
-                            <constraint firstItem="8uf-1r-tQe" firstAttribute="centerX" secondItem="lLi-8O-Qo4" secondAttribute="centerX" id="R8o-M8-aQX"/>
-                            <constraint firstItem="sIX-2r-CYj" firstAttribute="leading" secondItem="lLi-8O-Qo4" secondAttribute="leading" constant="195" id="RZ3-UA-dKD"/>
-                            <constraint firstItem="my2-0c-VVY" firstAttribute="leading" secondItem="Uem-hM-7y3" secondAttribute="leading" constant="26" id="RrH-bB-wkM"/>
-                            <constraint firstItem="5HF-0R-B4y" firstAttribute="leading" secondItem="Uem-hM-7y3" secondAttribute="leading" id="Zws-1c-JmR"/>
-                            <constraint firstItem="sbe-8d-guw" firstAttribute="top" secondItem="Uem-hM-7y3" secondAttribute="top" constant="44" id="gGy-CX-X1r"/>
-                            <constraint firstItem="sIX-2r-CYj" firstAttribute="centerY" secondItem="wNX-6V-xDA" secondAttribute="centerY" id="gyU-qU-dYW"/>
-                            <constraint firstItem="sbe-8d-guw" firstAttribute="trailing" secondItem="lLi-8O-Qo4" secondAttribute="trailingMargin" id="kgA-Ix-RtV"/>
-                            <constraint firstItem="my2-0c-VVY" firstAttribute="top" secondItem="8uf-1r-tQe" secondAttribute="bottom" constant="17" id="mWR-8M-22f"/>
-                            <constraint firstItem="8uf-1r-tQe" firstAttribute="top" secondItem="sbe-8d-guw" secondAttribute="bottom" constant="47" id="uwb-VH-ovT"/>
-                            <constraint firstItem="wNX-6V-xDA" firstAttribute="top" secondItem="8uf-1r-tQe" secondAttribute="bottom" constant="12" id="vkQ-oo-1aM"/>
-                            <constraint firstItem="5HF-0R-B4y" firstAttribute="top" secondItem="Uem-hM-7y3" secondAttribute="top" constant="20" id="y0b-Bu-7K4"/>
-                            <constraint firstItem="sbe-8d-guw" firstAttribute="leading" secondItem="5HF-0R-B4y" secondAttribute="trailing" id="yFc-Yg-vtq"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Uem-hM-7y3"/>
                     </view>
                     <navigationItem key="navigationItem" id="dn5-sh-SxO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eN6-Bu-n57" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640.579710144928" y="117.85714285714285"/>
+            <point key="canvasLocation" x="3368" y="-183"/>
         </scene>
         <!--Italy View Controller-->
         <scene sceneID="ady-XT-buS">
@@ -568,6 +559,7 @@
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="homeTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="9sC-rh-QbZ"/>
                                     <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="cpV-Tl-ip6"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="U2K-uG-BjZ"/>
                                 </connections>
@@ -587,6 +579,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="ewL-49-7nq"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="mGb-7h-Iee"/>
                                 </connections>
                             </button>
@@ -595,6 +588,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="5jV-eO-RB9"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="iaD-l5-9xh"/>
                                 </connections>
                             </button>
@@ -606,6 +600,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="ReQ-mU-0Kq"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="SKb-Xw-dTe"/>
                                 </connections>
                             </button>
@@ -646,7 +641,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZnN-wJ-2Uy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1341" y="804"/>
+            <point key="canvasLocation" x="-2546" y="804"/>
         </scene>
         <!--Greece View Controller-->
         <scene sceneID="dja-jR-sgX">
@@ -714,6 +709,7 @@
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
                                     <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="Bc8-7c-0Gl"/>
+                                    <action selector="homeTapped:" destination="qLF-Om-4eU" eventType="touchUpInside" id="rSO-Su-FDA"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="fan-kb-Qll"/>
                                 </connections>
                             </button>
@@ -732,6 +728,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="qLF-Om-4eU" eventType="touchUpInside" id="UZe-MT-Ifg"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="hMp-tB-pXE"/>
                                 </connections>
                             </button>
@@ -740,6 +737,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="qLF-Om-4eU" eventType="touchUpInside" id="TXh-xg-UTV"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="kFC-Ha-d98"/>
                                 </connections>
                             </button>
@@ -751,6 +749,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="qLF-Om-4eU" eventType="touchUpInside" id="SFl-mQ-lGf"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="HmC-GK-e21"/>
                                 </connections>
                             </button>
@@ -791,7 +790,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pom-xZ-k8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-561" y="804"/>
+            <point key="canvasLocation" x="-1533" y="804"/>
         </scene>
         <!--Australia View Controller-->
         <scene sceneID="ohn-qW-OK0">
@@ -858,6 +857,7 @@
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="homeTapped:" destination="Gnx-CP-Kxa" eventType="touchUpInside" id="BfY-eO-g2m"/>
                                     <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="dxu-Rd-gC5"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="Zjz-Fu-9WJ"/>
                                 </connections>
@@ -877,6 +877,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="Gnx-CP-Kxa" eventType="touchUpInside" id="vqr-bY-CbH"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="NLU-du-CFH"/>
                                 </connections>
                             </button>
@@ -885,6 +886,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="Gnx-CP-Kxa" eventType="touchUpInside" id="rwu-0a-ScH"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="BYv-lr-Yyo"/>
                                 </connections>
                             </button>
@@ -896,6 +898,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="Gnx-CP-Kxa" eventType="touchUpInside" id="N4D-Ny-TZO"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="RKX-cS-TzG"/>
                                 </connections>
                             </button>
@@ -936,7 +939,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebE-6b-rOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="222" y="804"/>
+            <point key="canvasLocation" x="-483" y="804"/>
         </scene>
         <!--Brazil View Controller-->
         <scene sceneID="PMr-Dm-Z9p">
@@ -1012,6 +1015,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="NJj-vE-aPy" eventType="touchUpInside" id="BAz-it-26L"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="s0l-md-1lV"/>
                                 </connections>
                             </button>
@@ -1020,6 +1024,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="NJj-vE-aPy" eventType="touchUpInside" id="uO5-Tf-aTX"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="1wh-dv-Jbf"/>
                                 </connections>
                             </button>
@@ -1031,6 +1036,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="NJj-vE-aPy" eventType="touchUpInside" id="m3K-sa-aBU"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="RvY-9c-fo4"/>
                                 </connections>
                             </button>
@@ -1043,6 +1049,7 @@
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
                                     <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="1CQ-QW-rOV"/>
+                                    <action selector="homeTapped:" destination="NJj-vE-aPy" eventType="touchUpInside" id="voo-em-Y2f"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="dcl-oj-WrJ"/>
                                 </connections>
                             </button>
@@ -1091,7 +1098,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9na-3c-LU2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="993" y="804"/>
+            <point key="canvasLocation" x="551" y="804"/>
         </scene>
         <!--Ghana View Controller-->
         <scene sceneID="uCA-hD-Frp">
@@ -1159,6 +1166,7 @@
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
                                     <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="a9I-BO-QNt"/>
+                                    <action selector="homeTapped:" destination="zNz-UA-qnq" eventType="touchUpInside" id="umW-om-UiG"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="ytD-X7-qQ7"/>
                                 </connections>
                             </button>
@@ -1177,6 +1185,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="zNz-UA-qnq" eventType="touchUpInside" id="579-4W-P31"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="tTl-Nd-nPj"/>
                                 </connections>
                             </button>
@@ -1185,6 +1194,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="zNz-UA-qnq" eventType="touchUpInside" id="eci-CO-8w5"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="iR2-Ep-Lv2"/>
                                 </connections>
                             </button>
@@ -1196,6 +1206,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="zNz-UA-qnq" eventType="touchUpInside" id="mhz-X2-yFt"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="5Iq-FW-t2S"/>
                                 </connections>
                             </button>
@@ -1236,7 +1247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbW-3v-t7R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1768" y="804"/>
+            <point key="canvasLocation" x="1558" y="804"/>
         </scene>
         <!--Morocco View Controller-->
         <scene sceneID="OhJ-vG-Cfs">
@@ -1304,6 +1315,7 @@
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
                                     <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="4z9-3w-MKl"/>
+                                    <action selector="homeTapped:" destination="oRc-gI-JYb" eventType="touchUpInside" id="iqK-B8-8df"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="3cI-9D-6Cn"/>
                                 </connections>
                             </button>
@@ -1322,6 +1334,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="oRc-gI-JYb" eventType="touchUpInside" id="ul8-DT-muh"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="bKt-Bq-1Bl"/>
                                 </connections>
                             </button>
@@ -1330,6 +1343,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="oRc-gI-JYb" eventType="touchUpInside" id="t5L-ZG-r0y"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="Ydk-m8-JO2"/>
                                 </connections>
                             </button>
@@ -1341,6 +1355,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="oRc-gI-JYb" eventType="touchUpInside" id="SUB-tG-QCh"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="KFs-YR-cLF"/>
                                 </connections>
                             </button>
@@ -1442,6 +1457,7 @@
                                 <color key="tintColor" red="0.81912976500000001" green="0.73735159640000003" blue="0.55853646990000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="house.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="homeTapped:" destination="wOx-2a-cFW" eventType="touchUpInside" id="KKG-Ek-X5L"/>
                                     <action selector="homeTapped:" destination="cWb-bL-q0C" eventType="touchUpInside" id="sT0-HD-w6v"/>
                                     <segue destination="OS5-p9-Rsz" kind="show" id="KbP-P6-PDb"/>
                                 </connections>
@@ -1461,6 +1477,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="bucketTapped:" destination="wOx-2a-cFW" eventType="touchUpInside" id="bOa-kE-298"/>
                                     <segue destination="FnO-qM-JRE" kind="show" id="2ia-Fv-jsX"/>
                                 </connections>
                             </button>
@@ -1469,6 +1486,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="magnifyingglass" catalog="system"/>
                                 <connections>
+                                    <action selector="searchTapped:" destination="wOx-2a-cFW" eventType="touchUpInside" id="RXI-CO-9O7"/>
                                     <segue destination="cWb-bL-q0C" kind="show" id="s83-r7-uFj"/>
                                 </connections>
                             </button>
@@ -1480,6 +1498,7 @@
                                 <color key="tintColor" red="0.59837008250000001" green="0.51631292689999997" blue="0.4073626407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="map.fill" catalog="system"/>
                                 <connections>
+                                    <action selector="mapTapped:" destination="wOx-2a-cFW" eventType="touchUpInside" id="95V-Dx-Gf6"/>
                                     <segue destination="wXE-57-NPh" kind="show" id="ywd-8i-3iw"/>
                                 </connections>
                             </button>
@@ -1500,14 +1519,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Go1-U6-Tgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3332" y="804"/>
+            <point key="canvasLocation" x="3593" y="804"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ywd-8i-3iw"/>
-        <segue reference="s83-r7-uFj"/>
-        <segue reference="2ia-Fv-jsX"/>
-        <segue reference="KbP-P6-PDb"/>
+        <segue reference="SKb-Xw-dTe"/>
+        <segue reference="iaD-l5-9xh"/>
+        <segue reference="mGb-7h-Iee"/>
+        <segue reference="U2K-uG-BjZ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_8738" width="746" height="688"/>
@@ -1531,6 +1550,5 @@
         <image name="travel bucket (1)" width="1296" height="1728"/>
         <image name="welcome" width="570" height="230"/>
         <image name="welcomeParagraph" width="736" height="620"/>
-        <image name="world-map-large" width="1600" height="1135"/>
     </resources>
 </document>

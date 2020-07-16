@@ -18,27 +18,27 @@ class searchViewController: UIViewController {
     @IBOutlet weak var tblView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
+    override func viewDidLoad() {
+        super.viewDidLoad()
 //        countrySearch.delegate = self
 //    }
 //
 //    override func didReceiveMemoryWarning() {
 //        super.didReceiveMemoryWarning()
 //    }
-  
-    @IBAction func bucketTapped(_ sender: UIBarButtonItem) {
-    }
-    @IBAction func searchTapped(_ sender: UIButton) {
-    }
-    @IBAction func mapTapped(_ sender: UIBarButtonItem) {
     }
     @IBAction func homeTapped(_ sender: UIButton) {
     }
-}
-//
+    @IBAction func bucketTapped(_ sender: UIButton) {
+    }
+    @IBAction func searchTapped(_ sender: UIButton) {
+    }
+    @IBAction func mapTapped(_ sender: UIButton) {
+    }
+    
+    
 //extension ViewController: UITableViewDelegate, UITableViewDataSource {
-//
+
 //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        if searching {
 //            return searchedCountry.count
@@ -195,3 +195,4 @@ class searchViewController: UIViewController {
 //
 //}
 //
+}
