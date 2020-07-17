@@ -206,11 +206,11 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Sl-1s-kc7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Sl-1s-kc7">
                                 <rect key="frame" x="67" y="454" width="136" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99991267920000004" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.3294117647" green="0.26128906010000003" blue="0.13571906089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -277,6 +277,13 @@
                     <navigationItem key="navigationItem" id="ztk-xW-lgC"/>
                     <connections>
                         <outlet property="label1" destination="6Sl-1s-kc7" id="OpG-ZO-YH6"/>
+                        <outlet property="label2" destination="joc-0b-3Y5" id="4fz-3V-RfE"/>
+                        <outlet property="label3" destination="gj3-tF-g5Q" id="6iD-Aq-tAW"/>
+                        <outlet property="label4" destination="Tao-Yi-Uw6" id="eCW-Po-A1p"/>
+                        <outlet property="label5" destination="S5v-7A-DdO" id="mmY-Qn-cev"/>
+                        <outlet property="label6" destination="PSz-d1-bgz" id="fB1-h9-gGN"/>
+                        <outlet property="label7" destination="Yt1-Lq-F1R" id="ump-9b-kda"/>
+                        <outlet property="label8" destination="axH-uW-ICi" id="EDs-ND-U9g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UuP-CK-eXF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -802,7 +809,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="mGb-7h-Iee"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goToBucket" id="mGb-7h-Iee"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBA-JA-yqK">
@@ -962,7 +969,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="hMp-tB-pXE"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goesToBucket" id="hMp-tB-pXE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="657-MI-4qh">
@@ -1123,7 +1130,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="NLU-du-CFH"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goToBucket" id="NLU-du-CFH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kn4-Yh-HTe">
@@ -1285,7 +1292,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="s0l-md-1lV"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goToBucket" id="s0l-md-1lV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqs-Tn-uAM">
@@ -1443,7 +1450,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="tTl-Nd-nPj"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goToBucket" id="tTl-Nd-nPj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsk-dm-ahQ">
@@ -1600,7 +1607,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="bKt-Bq-1Bl"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goToBucket" id="bKt-Bq-1Bl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJw-xJ-gPy">
@@ -1761,7 +1768,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="2ia-Fv-jsX"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goToBucket" id="2ia-Fv-jsX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izq-Cy-bLI">
@@ -1922,7 +1929,7 @@
                                     <color key="titleColor" red="0.17776484719999999" green="0.03071785095" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FnO-qM-JRE" kind="show" id="gvy-Ng-Vwt"/>
+                                    <segue destination="FnO-qM-JRE" kind="show" identifier="goToBucket" id="gvy-Ng-Vwt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84m-5C-65p">
@@ -2024,11 +2031,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tTG-5c-WwV"/>
-        <segue reference="LOs-tQ-iA6"/>
-        <segue reference="tJe-b2-wuu"/>
-        <segue reference="kvg-c7-b7t"/>
-        <segue reference="myH-Tl-EIc"/>
+        <segue reference="Edu-EU-2mg"/>
+        <segue reference="nBv-RW-pnh"/>
+        <segue reference="cJk-Wm-Zyf"/>
+        <segue reference="hMp-tB-pXE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_8738" width="746" height="688"/>

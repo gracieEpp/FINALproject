@@ -9,6 +9,8 @@
 import UIKit
 
 class ghanaViewController: UIViewController {
+    var countryName = ""
+    
     @IBOutlet weak var ghanaTitle: UILabel!
     @IBOutlet weak var cities: UILabel!
     @IBOutlet weak var attractions: UILabel!
@@ -19,18 +21,24 @@ class ghanaViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func addTapped(_ sender: UIButton) {
+        countryName = "Ghana"
     }
     
     
 
-    /*
+  
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToBucket" {
+            if let vc = segue.destination as? bucketViewController {
+                vc.fifthLabel = countryName
+            }
+        }
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+
 
 }

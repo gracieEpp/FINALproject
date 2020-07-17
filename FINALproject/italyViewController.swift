@@ -9,7 +9,7 @@
 import UIKit
 
 class italyViewController: UIViewController {
-    var previousVC = bucketViewController()
+    var countryName = ""
     
     @IBOutlet weak var italyTitle: UILabel!
     @IBOutlet weak var cities: UILabel!
@@ -21,23 +21,25 @@ class italyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func saveCountryTapped(_ sender: UIButton) {
-        previousVC.label1?.text = "Italy"
-        previousVC.label1?.textAlignment = .center
-        previousVC.label1?.textColor = UIColor(red: 84/256, green: 67/256, blue: 35/256, alpha: 1.0)
-        previousVC.label1?.font = UIFont(name: "Big Caslon Medium", size: CGFloat(22))
+        countryName = "Italy"
    }
     
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToBucket" {
+            if let vc = segue.destination as? bucketViewController {
+                vc.firstLabel = countryName
+            }
+        }
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 
 }
