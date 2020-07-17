@@ -78,8 +78,8 @@
                                     <constraint firstAttribute="height" constant="192" id="PTP-g8-gkB"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="welcomeParagraph" translatesAutoresizingMaskIntoConstraints="NO" id="PQQ-EK-0UN">
-                                <rect key="frame" x="-27" y="229" width="469" height="338"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="newWelcomeParagraph" translatesAutoresizingMaskIntoConstraints="NO" id="PQQ-EK-0UN">
+                                <rect key="frame" x="0.0" y="229" width="414" height="338"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="IMG_8738" translatesAutoresizingMaskIntoConstraints="NO" id="afQ-BQ-xHE">
                                 <rect key="frame" x="73" y="575" width="269" height="153"/>
@@ -131,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epM-or-UXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1083" y="-183"/>
+            <point key="canvasLocation" x="-1084.0579710144928" y="-183.48214285714286"/>
         </scene>
         <!--Bucket View Controller-->
         <scene sceneID="hgC-jC-LBm">
@@ -648,19 +648,19 @@
                                     <segue destination="wOx-2a-cFW" kind="show" id="Mtd-oL-w5Q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULS-xX-7Kc">
-                                <rect key="frame" x="253" y="668" width="135" height="84"/>
-                                <state key="normal" title="Button" image="russian-flag"/>
-                                <connections>
-                                    <segue destination="70u-io-8Mh" kind="show" id="tTG-5c-WwV"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="greenBorder" translatesAutoresizingMaskIntoConstraints="NO" id="UD1-gk-C1s">
                                 <rect key="frame" x="236" y="101" width="20" height="651"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="greenBorder" translatesAutoresizingMaskIntoConstraints="NO" id="EGK-hh-jL5">
                                 <rect key="frame" x="368" y="101" width="20" height="651"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULS-xX-7Kc">
+                                <rect key="frame" x="249" y="670" width="135" height="84"/>
+                                <state key="normal" title="Button" image="russian-flag"/>
+                                <connections>
+                                    <segue destination="70u-io-8Mh" kind="show" id="tTG-5c-WwV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.56017589629999998" green="0.78063531090000005" blue="0.48341668900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -1528,7 +1528,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1moroccoPage" translatesAutoresizingMaskIntoConstraints="NO" id="rlC-HI-PuM">
-                                <rect key="frame" x="0.0" y="293" width="414" height="470"/>
+                                <rect key="frame" x="0.0" y="288" width="414" height="470"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1768,10 +1768,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="a9C-fM-xe1"/>
-        <segue reference="pCt-zR-JHS"/>
-        <segue reference="iR2-Ep-Lv2"/>
-        <segue reference="tTl-Nd-nPj"/>
+        <segue reference="wE7-kH-8tO"/>
+        <segue reference="KFs-YR-cLF"/>
+        <segue reference="Ydk-m8-JO2"/>
+        <segue reference="bKt-Bq-1Bl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1moroccoPage" width="746" height="988"/>
@@ -1807,6 +1807,7 @@
         <image name="menu-1" width="230" height="92"/>
         <image name="morocco" width="1200" height="800"/>
         <image name="moroccoText" width="206" height="68"/>
+        <image name="newWelcomeParagraph" width="742" height="566"/>
         <image name="phil" width="600" height="300"/>
         <image name="philippinesText" width="246" height="64"/>
         <image name="russiaText" width="154" height="64"/>
@@ -1814,6 +1815,5 @@
         <image name="travel bucket" width="1296" height="1728"/>
         <image name="travel bucket (1)" width="1296" height="1728"/>
         <image name="welcome" width="570" height="230"/>
-        <image name="welcomeParagraph" width="736" height="620"/>
     </resources>
 </document>
