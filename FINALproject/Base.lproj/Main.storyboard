@@ -1416,7 +1416,7 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="YIa-vy-6HP"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1ghanaPage" translatesAutoresizingMaskIntoConstraints="NO" id="bNE-wJ-lGV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ghanaFINALpage" translatesAutoresizingMaskIntoConstraints="NO" id="bNE-wJ-lGV">
                                 <rect key="frame" x="0.0" y="283" width="414" height="475"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1459,20 +1459,6 @@
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uly-uA-BJD">
-                                <rect key="frame" x="20" y="312" width="374" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="attractions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27T-dP-bMq">
-                                <rect key="frame" x="20" y="509" width="374" height="181"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ag1-Ci-DNf">
@@ -1541,8 +1527,8 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="e45-F0-7Bd"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1moroccoPage" translatesAutoresizingMaskIntoConstraints="NO" id="8Pr-aK-fdb">
-                                <rect key="frame" x="0.0" y="288" width="414" height="470"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1moroccoPage" translatesAutoresizingMaskIntoConstraints="NO" id="rlC-HI-PuM">
+                                <rect key="frame" x="0.0" y="293" width="414" height="470"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1551,8 +1537,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="6Tp-mB-6xB"/>
                     <connections>
-                        <outlet property="attractions" destination="27T-dP-bMq" id="3v6-zr-P72"/>
-                        <outlet property="cities" destination="Uly-uA-BJD" id="2OG-Mv-TbS"/>
                         <outlet property="moroccoTitle" destination="n1q-cw-eOh" id="p4R-WK-Byz"/>
                     </connections>
                 </viewController>
@@ -1586,20 +1570,6 @@
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEP-jI-NMX">
-                                <rect key="frame" x="20" y="317" width="374" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="attractions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4H-4z-ugV">
-                                <rect key="frame" x="20" y="514" width="374" height="181"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gM8-bk-EPP">
@@ -1668,8 +1638,8 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="FGj-Fr-aSh"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1philPage" translatesAutoresizingMaskIntoConstraints="NO" id="QhJ-YV-95F">
-                                <rect key="frame" x="0.0" y="298" width="414" height="460"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1philPage" translatesAutoresizingMaskIntoConstraints="NO" id="Kgx-Ej-Fj8">
+                                <rect key="frame" x="0.0" y="288" width="414" height="470"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1678,8 +1648,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="fys-Ab-xQW"/>
                     <connections>
-                        <outlet property="attractions" destination="A4H-4z-ugV" id="fDt-8S-qrA"/>
-                        <outlet property="cities" destination="HEP-jI-NMX" id="Sno-Oi-tOh"/>
                         <outlet property="philippinesTitle" destination="tvw-ct-sGJ" id="b0e-Dl-9ni"/>
                     </connections>
                 </viewController>
@@ -1713,20 +1681,6 @@
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBm-PM-KGs">
-                                <rect key="frame" x="20" y="307" width="374" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="attractions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZN-0x-o2W">
-                                <rect key="frame" x="20" y="504" width="374" height="181"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtv-XB-9lJ">
@@ -1795,8 +1749,8 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="jZh-sA-kNy"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1russiaPage" translatesAutoresizingMaskIntoConstraints="NO" id="rKU-Bw-Mgg">
-                                <rect key="frame" x="0.0" y="288" width="414" height="470"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1russiaPage" translatesAutoresizingMaskIntoConstraints="NO" id="MUn-GG-5sy">
+                                <rect key="frame" x="0.0" y="293" width="414" height="470"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1805,8 +1759,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="M2r-G5-YXB"/>
                     <connections>
-                        <outlet property="attractions" destination="2ZN-0x-o2W" id="SmU-UI-7FM"/>
-                        <outlet property="cities" destination="VBm-PM-KGs" id="EBS-0K-sXq"/>
                         <outlet property="russiaTitle" destination="Okp-i2-Nvh" id="NIk-Bv-B6g"/>
                     </connections>
                 </viewController>
@@ -1816,13 +1768,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LOs-tQ-iA6"/>
+        <segue reference="a9C-fM-xe1"/>
         <segue reference="pCt-zR-JHS"/>
-        <segue reference="LNO-cl-PW3"/>
-        <segue reference="gvy-Ng-Vwt"/>
+        <segue reference="iR2-Ep-Lv2"/>
+        <segue reference="tTl-Nd-nPj"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="1ghanaPage" width="716" height="982"/>
         <image name="1moroccoPage" width="746" height="988"/>
         <image name="1philPage" width="746" height="976"/>
         <image name="1russiaPage" width="740" height="972"/>
@@ -1841,6 +1792,7 @@
         <image name="bucketListText" width="600" height="198"/>
         <image name="extraLanguagesOne" width="722" height="402"/>
         <image name="ghana" width="255" height="170"/>
+        <image name="ghanaFINALpage" width="736" height="972"/>
         <image name="ghanaText" width="162" height="60"/>
         <image name="greece flag" width="400" height="267"/>
         <image name="greeceText" width="184" height="68"/>
