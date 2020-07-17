@@ -1350,20 +1350,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pR-21-whL">
-                                <rect key="frame" x="20" y="302" width="374" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="attractions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0Q-WZ-lEB">
-                                <rect key="frame" x="20" y="499" width="374" height="181"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsM-yD-1h1">
                                 <rect key="frame" x="0.0" y="751" width="414" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1430,14 +1416,16 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="YIa-vy-6HP"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1ghanaPage" translatesAutoresizingMaskIntoConstraints="NO" id="bNE-wJ-lGV">
+                                <rect key="frame" x="0.0" y="283" width="414" height="475"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PpU-BG-hhs"/>
                     </view>
                     <navigationItem key="navigationItem" id="b7b-sD-eXC"/>
                     <connections>
-                        <outlet property="attractions" destination="n0Q-WZ-lEB" id="db7-nc-b4N"/>
-                        <outlet property="cities" destination="4pR-21-whL" id="p5G-a7-HaU"/>
                         <outlet property="ghanaTitle" destination="jBO-Sr-8yc" id="Byk-Ff-cM4"/>
                     </connections>
                 </viewController>
@@ -1553,6 +1541,10 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="e45-F0-7Bd"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1moroccoPage" translatesAutoresizingMaskIntoConstraints="NO" id="8Pr-aK-fdb">
+                                <rect key="frame" x="0.0" y="288" width="414" height="470"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fS1-Rv-AgE"/>
@@ -1676,6 +1668,10 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="FGj-Fr-aSh"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1philPage" translatesAutoresizingMaskIntoConstraints="NO" id="QhJ-YV-95F">
+                                <rect key="frame" x="0.0" y="298" width="414" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wMI-7N-FuE"/>
@@ -1799,6 +1795,10 @@
                                     <action selector="saveCountryTapped:" destination="t1y-gs-ZdT" eventType="touchUpInside" id="jZh-sA-kNy"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1russiaPage" translatesAutoresizingMaskIntoConstraints="NO" id="rKU-Bw-Mgg">
+                                <rect key="frame" x="0.0" y="288" width="414" height="470"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.24313725489999999" green="0.3921568627" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="QwF-8V-6LI"/>
@@ -1816,12 +1816,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1JL-L8-7ht"/>
-        <segue reference="HmC-GK-e21"/>
-        <segue reference="kFC-Ha-d98"/>
-        <segue reference="hMp-tB-pXE"/>
+        <segue reference="LOs-tQ-iA6"/>
+        <segue reference="pCt-zR-JHS"/>
+        <segue reference="LNO-cl-PW3"/>
+        <segue reference="gvy-Ng-Vwt"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="1ghanaPage" width="716" height="982"/>
+        <image name="1moroccoPage" width="746" height="988"/>
+        <image name="1philPage" width="746" height="976"/>
+        <image name="1russiaPage" width="740" height="972"/>
         <image name="IMG_8738" width="746" height="688"/>
         <image name="Screen Shot 2020-07-16 at 10.03.00 PM" width="263" height="351"/>
         <image name="Screen Shot 2020-07-16 at 10.18.46 PM" width="264" height="349"/>
