@@ -9,13 +9,11 @@
 import UIKit
 
 class greeceViewController: UIViewController {
-    var previousVC = bucketViewController()
     var countryName = ""
     
     @IBOutlet weak var greeceTitle: UILabel!
     @IBOutlet weak var cities: UILabel!
     @IBOutlet weak var attractions: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +25,14 @@ class greeceViewController: UIViewController {
     }
     
 
+    
   
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
         {
-        if segue.identifier == "goesToBucket" {
+        if segue.identifier == "greeceGoToBucket" {
             if let vc = segue.destination as? bucketViewController {
                 vc.secondLabel = countryName
             }
