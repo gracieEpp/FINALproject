@@ -72,27 +72,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="fIR-xr-HQh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcome" translatesAutoresizingMaskIntoConstraints="NO" id="fIR-xr-HQh">
                                 <rect key="frame" x="0.0" y="29" width="414" height="192"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="192" id="PTP-g8-gkB"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="newWelcomeParagraph" translatesAutoresizingMaskIntoConstraints="NO" id="PQQ-EK-0UN">
-                                <rect key="frame" x="0.0" y="229" width="414" height="338"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="IMG_8738" translatesAutoresizingMaskIntoConstraints="NO" id="afQ-BQ-xHE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_8738" translatesAutoresizingMaskIntoConstraints="NO" id="afQ-BQ-xHE">
                                 <rect key="frame" x="73" y="575" width="269" height="153"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="153" id="kuk-7g-ngr"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfe-7t-hFn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfe-7t-hFn">
                                 <rect key="frame" x="121" y="748" width="172" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="HbT-mI-QDa"/>
-                                </constraints>
                                 <state key="normal" title="continue">
                                     <attributedString key="attributedTitle">
                                         <fragment content="continue">
@@ -108,23 +99,12 @@
                                     <segue destination="65n-0e-fKu" kind="show" id="8HU-P7-uZz"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newWelcomeParagraph" translatesAutoresizingMaskIntoConstraints="NO" id="PQQ-EK-0UN">
+                                <rect key="frame" x="10" y="263" width="394" height="316"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.56017589629999998" green="0.78063531090000005" blue="0.48341668900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="jfe-7t-hFn" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" constant="121" id="12B-zv-dnR"/>
-                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="top" secondItem="fIR-xr-HQh" secondAttribute="bottom" constant="8" id="1m1-oq-7tp"/>
-                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="centerX" secondItem="jfe-7t-hFn" secondAttribute="centerX" id="IAh-Hf-Tg9"/>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="centerX" secondItem="SaZ-ef-jad" secondAttribute="centerX" id="IWd-UI-erU"/>
-                            <constraint firstItem="jfe-7t-hFn" firstAttribute="top" secondItem="afQ-BQ-xHE" secondAttribute="bottom" constant="20" id="PTW-Rq-PMu"/>
-                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="centerX" secondItem="afQ-BQ-xHE" secondAttribute="centerX" id="VG9-hD-cOa"/>
-                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" constant="73" id="VLM-Qc-RX0"/>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="top" secondItem="gvn-kL-abz" secondAttribute="top" constant="29" id="bBM-Rv-hUX"/>
-                            <constraint firstItem="gvn-kL-abz" firstAttribute="bottom" secondItem="jfe-7t-hFn" secondAttribute="bottom" constant="16" id="c6i-FH-r8j"/>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="leading" secondItem="gvn-kL-abz" secondAttribute="leading" id="jAZ-kp-ZgF"/>
-                            <constraint firstItem="fIR-xr-HQh" firstAttribute="centerX" secondItem="PQQ-EK-0UN" secondAttribute="centerX" id="ooj-Pp-bzM"/>
-                            <constraint firstItem="afQ-BQ-xHE" firstAttribute="top" secondItem="PQQ-EK-0UN" secondAttribute="bottom" constant="8" id="tLP-Dw-W3k"/>
-                            <constraint firstItem="PQQ-EK-0UN" firstAttribute="leading" secondItem="SaZ-ef-jad" secondAttribute="leadingMargin" constant="-47" id="veB-do-dOg"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gvn-kL-abz"/>
                     </view>
                     <navigationItem key="navigationItem" id="shS-pr-3Nf"/>
@@ -1743,7 +1723,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wE7-kH-8tO"/>
+        <segue reference="8HU-P7-uZz"/>
         <segue reference="KFs-YR-cLF"/>
         <segue reference="Ydk-m8-JO2"/>
         <segue reference="bKt-Bq-1Bl"/>
