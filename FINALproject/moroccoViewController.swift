@@ -12,8 +12,7 @@ class moroccoViewController: UIViewController {
     var countryName = ""
     
     @IBOutlet weak var moroccoTitle: UILabel!
-    @IBOutlet weak var cities: UILabel!
-    @IBOutlet weak var attractions: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
